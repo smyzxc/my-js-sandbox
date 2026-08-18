@@ -7,4 +7,14 @@ function checkNumber(n) {
     console.log("ravno nulu");
   }
 }
-checkNumber(2343223);
+//checkNumber(2343223);
+
+function checkEven(n) {
+  if (n % 2 === 0) {
+    console.log("chotnoe");
+  } else {
+    console.log("nechotnoe");
+  }
+}
+
+checkEven(12334234312);
